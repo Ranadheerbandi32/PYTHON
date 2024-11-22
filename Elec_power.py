@@ -17,8 +17,8 @@ col1, col2 = st.columns(2)
 with col1:
         with st.container(border=True):
             R = st.number_input("Resistance (R) in ohms", value=100.0, step=1.0)
-            L = st.number_input("Inductance (L) in henries", value=0.1, step=0.01)
-            C = st.number_input("Capacitance (C) in farads", value=1e-6, step=1e-7, format="%.7f")
+            L = st.number_input("Inductance (L) in henries", value=0.09, step=0.01)
+            C = st.number_input("Capacitance (C) in farads", value=0.01, step=1e-7, format="%.7f")
             compute=st.button("Compute")
             
 
